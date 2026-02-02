@@ -140,9 +140,9 @@ void PageMenu::setPaged(int count, PageOrientation orientation, float max, float
     }
 
     setPage(fields->m_currentPage);
-    if (Layout* layout = getLayout()) {
-        layout->ignoreInvisibleChildren(true);
-    }
+    // if (Layout* layout = getLayout()) {
+    //     layout->ignoreInvisibleChildren(true);
+    // }
     updateLayout();
     addArrowButtons();
 }
